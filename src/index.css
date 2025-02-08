@@ -1,27 +1,27 @@
 @font-face {
   font-family: "Soledago";
-  src: local("Soledago"), url("../public/fonts/Soledago.ttf") format("truetype");
+  src: local("Soledago"), url("../fonts/Soledago.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Dudka";
-  src: url("../public/fonts/Dudka\ Regular.ttf") format("truetype");
+  src: url("../fonts/Dudka\ Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Dudka";
-  src: url("../public/fonts/Dudka\ Bold.ttf") format("truetype");
+  src: url("../fonts/Dudka\ Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "BelongFaith";
-  src: url("../public/fonts/BelongFaithRegular.ttf") format("truetype");
+  src: url("../fonts/BelongFaithRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -83,6 +83,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+p {
+  font-family: "Dudka", sans-serif;
 }
 
 
